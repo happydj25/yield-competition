@@ -1,0 +1,948 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>스포라이브 수익률 대회</title>
+    <link rel="stylesheet" href="https://www.spolive.com/lib/css/font.css?20191113102527" />
+    <link rel="shortcut icon" href="images/app-favicon.ico">
+    <link rel="stylesheet" href="css/style.css" media="all">
+    <link rel="stylesheet" href="css/swiper.min.css">
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="dim"></div>
+
+        <div class="layer-popup">
+
+
+            <div class="login">
+                <div class="tit">
+                    <p>환영합니다!</p>
+                    <p>스포라이브 회원은 수익률 대회에 참가할 수 있습니다.<br>아직 가입하지 않으신 분은 하단의 <span class="otxt">회원가입 버튼을 눌러 가입</span>해 주세요.</p>
+                </div>
+                <div class="login-box">
+                    <input type="text" placeholder="아이디">
+                    <input type="password" class="pwinput" placeholder="비밀번호">
+                    <button type="submit">로그인</button>
+                </div>
+                <ul>
+                    <li><a href="https://www.spolive.com/bbs/register.php" target="_blank">회원가입</a></li>
+                    <li><a href="https://www.spolive.com/bbs/password_lost.php" target="_blank">아이디 찾기</a></li>
+                    <li><a href="https://www.spolive.com/bbs/password_lost.php" target="_blank">비밀번호 찾기</a></li>
+                </ul>
+                <span class="xbtn" title="닫기"></span>
+            </div>
+
+
+            <div class="bet_mobox">
+                <div class="tit">
+                    <p>[보로봉봉] 베팅 내역</p>
+                </div>
+                <div class="bet_table">
+                    <div class="fl">
+                        <div>게임종류</div>
+                        <div>구매일시</div>
+                        <div>베팅스타</div>
+                        <div>배당률</div>
+                        <div>예상당첨스타</div>
+                        <div>상태</div>
+                        <div>획득스타</div>
+                        <div>상세보기</div>
+                    </div>
+                    <div class="fl">
+                        <div>승무패</div>
+                        <div>19.10.22</div>
+                        <div>30,000</div>
+                        <div>476.29</div>
+                        <div>14,288,700,700,700</div>
+                        <div>
+                            <span class="blue">적중</span>
+                        </div>
+                        <div>14,288,700,700,700</div>
+                        <div>
+                            <span class="more_btn" title="더보기">더보기</span>
+                        </div>
+                    </div>
+                    <div class="fl">
+                        <div>승무패</div>
+                        <div>19.10.22</div>
+                        <div>30,000</div>
+                        <div>476.29</div>
+                        <div>14,288,700</div>
+                        <div>
+                            <span class="red">실패</span>
+                        </div>
+                        <div>14,288,700</div>
+                        <div>
+                            <span class="more_btn" title="더보기">더보기</span>
+                        </div>
+                    </div>
+                    <div class="fl">
+                        <div class="blind1">내역 공개까지 남은시간 : <b>999</b>분 <b>99</b>초</div>
+                        <div>승무패</div>
+                        <div>19.10.22</div>
+                        <div>30,000</div>
+                        <div>476.29</div>
+                        <div>14,288,700</div>
+                        <div>
+                            <span class="blue">적중</span>
+                        </div>
+                        <div>14,288,700</div>
+                        <div>
+                            <span class="more_btn" title="더보기">더보기</span>
+                        </div>
+                    </div>
+                    <div class="fl">
+                        <div class="blind1">내역 공개까지 남은시간 : <b>999</b>분 <b>99</b>초</div>
+                        <div>승무패</div>
+                        <div>19.10.22</div>
+                        <div>30,000</div>
+                        <div>476.29</div>
+                        <div>14,288,700</div>
+                        <div>
+                            <span class="red">실패</span>
+                        </div>
+                        <div>14,288,700</div>
+                        <div>
+                            <span class="more_btn" title="더보기">더보기</span>
+                        </div>
+                    </div>
+                </div>
+                <span class="xbtn" title="닫기"></span>
+            </div>
+
+
+            <div class="advance">
+                <div class="tit">
+                    <p>축하합니다!</p>
+                    <p>지난 예선전에서 최종 2위로 본선에 진출하였습니다.</p>
+                </div>
+                <div class="player_wrap">
+                    <table class="teamA">
+                        <tr>
+                            <th colspan="7">A조</th>
+                        </tr>
+                        <tr>
+                            <th>등수</th>
+                            <th>닉네임</th>
+                            <th>수익률</th>
+                            <th>보유스타</th>
+                            <th>참여<br>건수</th>
+                            <th>적중<br>건수</th>
+                            <th>베팅<br>내역</th>
+                        </tr>
+                        <tr>
+                            <td><span class="first"></span></td>
+                            <td><span class="name">일이삼사오육칠팔구십</span></td>
+                            <td><span class="percent_up">50%</span></td>
+                            <td>10,000,000,000</td>
+                            <td>10</td>
+                            <td>5</td>
+                            <td><a href="" class="betopen_btn" title="열람" 열람</a></td>
+                        </tr>
+                        <tr>
+                            <td><span class="second"></span></td>
+                            <td><span class="name">일이삼사오육칠팔구십</span></td>
+                            <td><span class="percent_up">5%</span></td>
+                            <td>10,000,000,000</td>
+                            <td>10</td>
+                            <td>5</td>
+                            <td><a href="" class="betopen_btn" title="열람" 열람</a> </td>
+                        </tr>
+                        <tr>
+                            <td><span class="third"></span></td>
+                            <td><span class="name">일이삼사오육칠팔구십</span></td>
+                            <td><span class="percent_dw">50%</span></td>
+                            <td>10,000,000,000</td>
+                            <td>10</td>
+                            <td>5</td>
+                            <td><a href="" class="betopen_btn" title="열람" 열람</a> </td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td><span class="name">일이삼사오육칠팔구십</span></td>
+                            <td><span class="percent_up">50%</span></td>
+                            <td>10,000,000,000</td>
+                            <td>10</td>
+                            <td>5</td>
+                            <td><a href="" class="betopen_btn" title="열람" 열람</a> </td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td><span class="name">일이삼사오육칠팔구십</span></td>
+                            <td><span class="percent_up">50%</span></td>
+                            <td>10,000,000,000</td>
+                            <td>10</td>
+                            <td>5</td>
+                            <td><a href="" class="betopen_btn" title="열람" 열람</a> </td>
+                        </tr>
+                        <tr>
+                            <td>6</td>
+                            <td><span class="name">일이삼사오육칠팔구십</span></td>
+                            <td><span class="percent_up">50%</span></td>
+                            <td>10,000,000,000</td>
+                            <td>10</td>
+                            <td>5</td>
+                            <td><a href="" class="betopen_btn" title="열람" 열람</a> </td>
+                        </tr>
+                        <tr>
+                            <td>7</td>
+                            <td><span class="name">일이삼사오육칠팔구십</span></td>
+                            <td><span class="percent_up">50%</span></td>
+                            <td>10,000,000,000</td>
+                            <td>10</td>
+                            <td>5</td>
+                            <td><a href="" class="betopen_btn" title="열람" 열람</a> </td>
+                        </tr>
+                        <tr>
+                            <td>8</td>
+                            <td><span class="name">일이삼사오육칠팔구십</span></td>
+                            <td><span class="percent_up">50%</span></td>
+                            <td>10,000,000,000</td>
+                            <td>10</td>
+                            <td>5</td>
+                            <td><a href="" class="betopen_btn" title="열람" 열람</a> </td>
+                        </tr>
+                    </table>
+                    <table class="teamB">
+                        <tr>
+                            <th colspan="7">B조</th>
+                        </tr>
+                        <tr>
+                            <th>등수</th>
+                            <th>닉네임</th>
+                            <th>수익률</th>
+                            <th>보유스타</th>
+                            <th>참여<br>건수</th>
+                            <th>적중<br>건수</th>
+                            <th>베팅<br>내역</th>
+                        </tr>
+                        <tr>
+                            <td>
+                                <span class="first"></span>
+                            </td>
+                            <td><span class="name">일이삼사오육칠팔구십</span></td>
+                            <td><span class="percent_up">50%</span></td>
+                            <td>10,000,000,000</td>
+                            <td>10</td>
+                            <td>5</td>
+                            <td><a href="" class="betopen_btn" title="열람" 열람</a> </td>
+                        </tr>
+                        <tr class="mywin_tr">
+                            <td>
+                                <span class="second"></span>
+                            </td>
+                            <td><span class="name">일이삼사오육칠팔구십</span></td>
+                            <td><span class="percent_up">50%</span></td>
+                            <td>10,000,000,000</td>
+                            <td>10</td>
+                            <td>5</td>
+                            <td><a href="" class="betopen_btn" title="열람" 열람</a> </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <span class="third"></span>
+                            </td>
+                            <td><span class="name">일이삼사오육칠팔구십</span></td>
+                            <td><span class="percent_up">50%</span></td>
+                            <td>10,000,000,000</td>
+                            <td>10</td>
+                            <td>5</td>
+                            <td><a href="" class="betopen_btn" title="열람" 열람</a> </td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td><span class="name">일이삼사오육칠팔구십</span></td>
+                            <td><span class="percent_up">50%</span></td>
+                            <td>10,000,000,000</td>
+                            <td>10</td>
+                            <td>5</td>
+                            <td><a href="" class="betopen_btn" title="열람" 열람</a> </td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td><span class="name">일이삼사오육칠팔구십</span></td>
+                            <td><span class="percent_up">50%</span></td>
+                            <td>10,000,000,000</td>
+                            <td>10</td>
+                            <td>5</td>
+                            <td><a href="" class="betopen_btn" title="열람" 열람</a> </td>
+                        </tr>
+                        <tr>
+                            <td>6</td>
+                            <td><span class="name">일이삼사오육칠팔구십</span></td>
+                            <td><span class="percent_up">50%</span></td>
+                            <td>10,000,000,000</td>
+                            <td>10</td>
+                            <td>5</td>
+                            <td><a href="" class="betopen_btn" title="열람" 열람</a> </td>
+                        </tr>
+                        <tr>
+                            <td>7</td>
+                            <td><span class="name">일이삼사오육칠팔구십</span></td>
+                            <td><span class="percent_up">50%</span></td>
+                            <td>10,000,000,000</td>
+                            <td>10</td>
+                            <td>5</td>
+                            <td><a href="" class="betopen_btn" title="열람" 열람</a> </td>
+                        </tr>
+                        <tr>
+                            <td>8</td>
+                            <td><span class="name">일이삼사오육칠팔구십</span></td>
+                            <td><span class="percent_up">50%</span></td>
+                            <td>10,000,000,000</td>
+                            <td>10</td>
+                            <td>5</td>
+                            <td><a href="" class="betopen_btn" title="열람" 열람</a> </td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="btn_wrap">
+                    <button type="button" name="button">확인</button>
+                </div>
+                <span class="xbtn" title="닫기"></span>
+            </div>
+
+
+            <div class="policy" style="display:block;">
+                <div class="tit">
+                    <p>수익률 대회 서비스 이용 동의</p>
+                    <p>수익률 대회 서비스 내용을 확인하고 아래 버튼을 눌러주세요.</p>
+                </div>
+                <div class="policy_cont">
+                    <h5 id="p1">[서비스 이용 동의 안내]</h5>
+                    <div>
+                        본 사이트는 ㈜스포라이브 (<a href="http://www.spolive.com" target="_blank">http://www.spolive.com)에서</a> 제공하는<br>이벤트 대회 사이트로써 ㈜스포라이브 회원이어야 대회 서비스를 이용할 수 있습니다.<br>
+                        귀하가 ‘동의’ 버튼을 클릭하면 서비스 이용에 동의한 것으로 간주됩니다.<br><br>
+                        본 사이트는 ㈜스포라이브(<a href="http://www.spolive.com" target="_blank">http://www.spolive.com</a>) 이용약관 및 개인정보 처리 방침에 따릅니다.</div>
+                    <h5 id="p2">
+                        <a href="https://www.spolive.com/bbs/content.php?co_id=provision" target="_blank">[이용약관]</a>
+                    </h5>
+                    <h5 id="p3">
+                        <a href="https://www.spolive.com/bbs/content.php?co_id=privacy" target="_blank">[개인정보 처리 방침]</a>
+                    </h5>
+                </div>
+                <div class="btn_wrap">
+                    <button type="button" name="button" class="notok_btn">동의하지 않음</button>
+                    <button type="button" name="button">동의</button>
+                </div>
+                <span class="xbtn" title="닫기"></span>
+            </div>
+
+
+            <div class="event_pop">
+                <div class="tit">시즌1 경품 응모</div>
+                <div>
+                    <div class="fl">
+                        <div class="img">
+                            <img src="./images/b2.png" title="LG전자 LED 마스크">
+                            <div class="g_num">경품<br>1개</div>
+                        </div>
+                        <p>LG전자 <b>LED 마스크</b></p>
+                    </div>
+                    <div class="fr">
+                        <div>LG전자 LED 마스크</div>
+                        <div>
+                            <div class="fl">
+                                응모하기
+                            </div>
+                            <div class="fr">
+                                <input type="text" value="1">
+                                회
+                            </div>
+                        </div>
+                        <div>
+                            <div class="fl">
+                                필요스타
+                            </div>
+                            <div class="fr">
+                                <span class="bstar">1,500,000</span> 스타
+                            </div>
+                        </div>
+                        <div>
+                            <button type="submit" name="button" class="btn4">응모하기</button>
+                        </div>
+                    </div>
+                </div>
+                <span class="xbtn" title="닫기"></span>
+            </div>
+
+
+            <div class="event_pop2">
+                <b>LG전자 LED 마스크</b>
+                <p class="btxt">필요스타 1,500,000</p>
+                <p><span class="otxt">1회 응모 </span> 하시겠습니까?</p>
+                <div>
+                    <button type="button" name="button" class="btn4">확인</button>
+                    <button type="button" name="button" class="btn2">취소</button>
+                </div>
+            </div>
+            <div class="event_pop3">
+                <p>상품 <b class="otxt2">LG전자 LED 마스크에</b></p>
+                <p><b class="otxt2">응모가 완료</b> 되었습니다.</p>
+                <button type="button" name="button" class="btn4">확인</button>
+            </div>
+        </div><!-- layer-popup -->
+        <header>
+            <div>
+                <div class="wrap">
+
+                    <article class="header_notice">
+                        <!-- Swiper -->
+                        <div class="swiper-container swiper-container-vertical" id="swiper-container2">
+                            <ol class="swiper-wrapper">
+                                <li class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active"><a href="">10월11일(월) 업데이트 안내</a></li>
+                                <li class="swiper-slide swiper-slide-duplicate-next"><a href="">10월 28일(월) 베팅 규정 변동 사항…</a></li>
+                                <li class="swiper-slide swiper-slide-prev"><a href="">10월 28일(월) 점검 안내(완료)</a></li>
+                                <li class="swiper-slide swiper-slide-active"><a href="">10월 11일(월) 업데이트 안내</a></li>
+                                <li class="swiper-slide swiper-slide-duplicate swiper-slide-next"><a href="">10월 28일(월) 베팅 규정 변동사항…</a></li>
+                            </ol>
+                        </div>
+                    </article>
+                    <ul>
+                        <li>
+                            <span class="user">
+                                일반<span class="user-star">10,000,000</span>
+                            </span>
+                        </li>
+                        <li>
+                            <span class="player">
+                                선수<span class="play-star">10,000,000</span>
+                            </span>
+                        </li>
+                        <li>보로봉봉 님</li>
+                        <li class="login">
+                            <button>로그인</button>
+                        </li>
+                        <li class="logout">
+                            <button type="button" name="button">로그아웃</button>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="mainmenu">
+                <div>
+                    <div class="logo">
+                        <h1><a href=""></a></h1>
+                    </div>
+                    <nav>
+                        <ul>
+                            <li>
+                                <a href="">대회 안내</a>
+                                <ul>
+                                    <li><a href="">대회 소개</a></li>
+                                    <li><a href="">대회 소식</a></li>
+                                    <li><a href="">대회 규정</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="">수익률 대회</a>
+                                <ul>
+                                    <li><a href="">게임 참여</a></li>
+                                    <li><a href="">대회 현황</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="">경품 응모</a>
+                                <ul>
+                                    <li><a href="">응모하기</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="">방송 센터</a>
+                                <ul>
+                                    <li><a href="">방송 영상</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="">내정보</a>
+                                <ul>
+                                    <li><a href="">참여기록</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+
+            </div>
+        </header>
+
+
+        <div class="content">
+            <main>
+                <div class="main_slide">
+                    <a href="">
+                        <img src="./images/slide1.jpg" alt="" title="2019 제 1회 수익률 대회 프로와 함께하는 국내 유일 토너먼트 바로가기">
+                    </a>
+                </div>
+                <div class="live_noti">
+                    <div class="wrap">
+                        <ul class="min_ln">
+                            <li>실시간 베팅 내역 알림</li>
+                            <li>D:10.31 T:06:00</li>
+                            <li>
+                                <span class="name">
+                                    일이삼사오육칠팔구십
+                                </span>
+                            </li>
+                            <li>99.99</li>
+                            <li>10</li>
+                            <li><a href="">베팅내역 열람</a></li>
+                            <li class="live_bet">
+                                <button class="live_bet_more"></button>
+                            </li>
+                        </ul>
+
+                        <ul class="min_ln min_ln2">
+                            <li>실시간 베팅 내역 알림</li>
+                            <li>베팅시간</li>
+                            <li>닉네임</li>
+                            <li>베당률</li>
+                            <li>폴더수</li>
+                            <li>베팅내역</li>
+                            <li class="live_bet">
+                                <button class="live_bet_more"></button>
+                            </li>
+                        </ul>
+
+
+                    </div>
+                    <table class="max_ln" border="0" cellspacing="0" cellpadding="0">
+                        <tbody>
+                            <tr>
+                                <td>D:10.31 T:06:00</td>
+                                <td><span class="name">일이삼사오육칠팔구십</span></td>
+                                <td>99.99</td>
+                                <td>10</td>
+                                <td>
+                                    <a href="">베팅내역 열람</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>D:10.31 T:06:00</td>
+                                <td><span class="name">일이삼사오육칠팔구십</span></td>
+                                <td>99.99</td>
+                                <td>10</td>
+                                <td>
+                                    <a href="">베팅내역 열람</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>D:10.31 T:06:00</td>
+                                <td><span class="name">일이삼사오육칠팔구십</span></td>
+                                <td>99.99</td>
+                                <td>10</td>
+                                <td>
+                                    <a href="">베팅내역 열람</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>D:10.31 T:06:00</td>
+                                <td><span class="name">일이삼사오육칠팔구십</span></td>
+                                <td>99.99</td>
+                                <td>10</td>
+                                <td>
+                                    <a href="">베팅내역 열람</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>D:10.31 T:06:00</td>
+                                <td><span class="name">일이삼사오육칠팔구십</span></td>
+                                <td>99.99</td>
+                                <td>10</td>
+                                <td>
+                                    <a href="">베팅내역 열람</a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                </div>
+
+                <section class="game_board">
+
+                    <div class="main_tit">
+                        <ul>
+                            <li>예선전 현황</li>
+                            <li class="date">2019.12.16 ~ 12.22</li>
+                        </ul>
+                    </div>
+
+                    <div class="player_wrap">
+
+                        <table class="teamA">
+                            <tr>
+                                <th colspan="7">A조</th>
+                            </tr>
+                            <tr>
+                                <th>등수</th>
+                                <th>닉네임</th>
+                                <th>수익률</th>
+                                <th>보유스타</th>
+                                <th>참여<br>건수</th>
+                                <th>적중<br>건수</th>
+                                <th>베팅<br>내역</th>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <span class="first"></span>
+                                </td>
+                                <td><span class="name">일이삼사오육칠팔구십</span></td>
+                                <td><span class="percent_up">50%</span></td>
+                                <td>10,000,000,000,000,000</td>
+                                <td>10</td>
+                                <td>5</td>
+                                <td><a class="betopen_btn" title="열람">열람</a></td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <span class="second"></span>
+                                </td>
+                                <td><span class="name">일이삼사오육칠팔구십</span></td>
+                                <td><span class="percent_up">5%</span></td>
+                                <td>10,000,000,000</td>
+                                <td>10</td>
+                                <td>5</td>
+                                <td><a class="betopen_btn" title="열람">열람</a></td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <span class="third"></span>
+                                </td>
+                                <td><span class="name">일이삼사오육칠팔구십</span></td>
+                                <td><span class="percent_dw">50%</span></td>
+                                <td>10,000,000,000</td>
+                                <td>10</td>
+                                <td>5</td>
+                                <td><a class="betopen_btn" title="열람">열람</a></td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td><span class="name">일이삼사오육칠팔구십</span></td>
+                                <td><span class="percent_up">50%</span></td>
+                                <td>10,000,000,000</td>
+                                <td>10</td>
+                                <td>5</td>
+                                <td><a class="betopen_btn" title="열람">열람</a></td>
+                            </tr>
+                            <tr>
+                                <td>5</td>
+                                <td><span class="name">일이삼사오육칠팔구십</span></td>
+                                <td><span class="percent_up">50%</span></td>
+                                <td>10,000,000,000</td>
+                                <td>10</td>
+                                <td>5</td>
+                                <td><a class="betopen_btn" title="열람">열람</a></td>
+                            </tr>
+                            <tr>
+                                <td>6</td>
+                                <td><span class="name">일이삼사오육칠팔구십</span></td>
+                                <td><span class="percent_up">50%</span></td>
+                                <td>10,000,000,000</td>
+                                <td>10</td>
+                                <td>5</td>
+                                <td><a class="betopen_btn" title="열람">열람</a></td>
+                            </tr>
+                            <tr>
+                                <td>7</td>
+                                <td><span class="name">일이삼사오육칠팔구십</span></td>
+                                <td><span class="percent_up">50%</span></td>
+                                <td>10,000,000,000</td>
+                                <td>10</td>
+                                <td>5</td>
+                                <td><a class="betopen_btn" title="열람">열람</a></td>
+                            </tr>
+                            <tr>
+                                <td>8</td>
+                                <td><span class="name">일이삼사오육칠팔구십</span></td>
+                                <td><span class="percent_up">50%</span></td>
+                                <td>10,000,000,000</td>
+                                <td>10</td>
+                                <td>5</td>
+                                <td><a class="betopen_btn" title="열람">열람</a></td>
+                            </tr>
+                        </table>
+
+                        <table class="teamB">
+                            <tr>
+                                <th colspan="7">B조</th>
+                            </tr>
+                            <tr>
+                                <th>등수</th>
+                                <th>닉네임</th>
+                                <th>수익률</th>
+                                <th>보유스타</th>
+                                <th>참여<br>건수</th>
+                                <th>적중<br>건수</th>
+                                <th>베팅<br>내역</th>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <span class="first"></span>
+                                </td>
+                                <td><span class="name">일이삼사오육칠팔구십</span></td>
+                                <td><span class="percent_up">50%</span></td>
+                                <td>10,000,000,000</td>
+                                <td>10</td>
+                                <td>5</td>
+                                <td><a class="betopen_btn" title="열람">열람</a></td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <span class="second"></span>
+                                </td>
+                                <td><span class="name">일이삼사오육칠팔구십</span></td>
+                                <td><span class="percent_up">50%</span></td>
+                                <td>10,000,000,000</td>
+                                <td>10</td>
+                                <td>5</td>
+                                <td><a class="betopen_btn" title="열람">열람</a></td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <span class="third"></span>
+                                </td>
+                                <td><span class="name">일이삼사오육칠팔구십</span></td>
+                                <td><span class="percent_up">50%</span></td>
+                                <td>10,000,000,000</td>
+                                <td>10</td>
+                                <td>5</td>
+                                <td><a class="betopen_btn" title="열람">열람</a></td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td><span class="name">일이삼사오육칠팔구십</span></td>
+                                <td><span class="percent_up">50%</span></td>
+                                <td>10,000,000,000</td>
+                                <td>10</td>
+                                <td>5</td>
+                                <td><a class="betopen_btn" title="열람">열람</a></td>
+                            </tr>
+                            <tr>
+                                <td>5</td>
+                                <td><span class="name">일이삼사오육칠팔구십</span></td>
+                                <td><span class="percent_up">50%</span></td>
+                                <td>10,000,000,000</td>
+                                <td>10</td>
+                                <td>5</td>
+                                <td><a class="betopen_btn" title="열람">열람</a></td>
+                            </tr>
+                            <tr>
+                                <td>6</td>
+                                <td><span class="name">일이삼사오육칠팔구십</span></td>
+                                <td><span class="percent_up">50%</span></td>
+                                <td>10,000,000,000</td>
+                                <td>10</td>
+                                <td>5</td>
+                                <td><a class="betopen_btn" title="열람">열람</a></td>
+                            </tr>
+                            <tr>
+                                <td>7</td>
+                                <td><span class="name">일이삼사오육칠팔구십</span></td>
+                                <td><span class="percent_up">50%</span></td>
+                                <td>10,000,000,000</td>
+                                <td>10</td>
+                                <td>5</td>
+                                <td><a class="betopen_btn" title="열람">열람</a></td>
+                            </tr>
+                            <tr>
+                                <td>8</td>
+                                <td><span class="name">일이삼사오육칠팔구십</span></td>
+                                <td><span class="percent_up">50%</span></td>
+                                <td>10,000,000,000</td>
+                                <td>10</td>
+                                <td>5</td>
+                                <td><a class="betopen_btn" title="열람">열람</a></td>
+                            </tr>
+                        </table>
+
+                    </div>
+
+
+
+                    <div class="morebtn_box">
+                        <a href="">자세히보기</a>
+                    </div>
+                </section>
+
+                <section class="game_board">
+
+                    <div class="main_tit">
+                        <ul>
+                            <li>결승전 현황</li>
+                            <li class="date">2020.01.06 ~ 01.12</li>
+                        </ul>
+                    </div>
+
+                    <div class="final_wrap">
+                        <div class="final">
+                            결승전
+                        </div>
+                        <div class="final_info">
+                            <div class="left">
+                                <div class="profile">
+                                    <p class="name">일이삼사오육칠팔구십</p>
+                                    <ul>
+                                        <li>
+                                            <div class="fl">수익률</div>
+                                            <div class="fr percent_dw">40%</div>
+                                        </li>
+                                        <li>
+                                            <div class="fl">참여건수</div>
+                                            <div class="fr">15</div>
+                                        </li>
+                                        <li>
+                                            <div class="fl">적중건수</div>
+                                            <div class="fr">10</div>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="bet_more_btn">
+                                    <button type="button" name="button" title="베팅내역 보기">
+                                        베팅내역보기
+                                    </button>
+                                </div>
+
+                            </div>
+                            <div class="vs">
+                                <div class="fl"></div>
+                                <div class="center"></div>
+                                <div class="fr winning"></div>
+                            </div>
+                            <div class="right">
+                                <div class="profile">
+                                    <p class="name">보로봉봉</p>
+                                    <ul>
+                                        <li>
+                                            <div class="fl percent_up">40%</div>
+                                            <div class="fr">수익률</div>
+
+                                        </li>
+                                        <li>
+                                            <div class="fl">15</div>
+                                            <div class="fr">참여건수</div>
+
+                                        </li>
+                                        <li>
+                                            <div class="fl">10</div>
+                                            <div class="fr">적중건수</div>
+
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="bet_more_btn">
+                                    <button type="button" name="button" title="베팅내역 보기">
+                                        베팅내역보기
+                                    </button>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="morebtn_box"><a href="">자세히보기</a></div>
+                </section>
+
+                <section class="broadcast">
+
+                    <div class="main_tit">
+                        <p>방송센터</p>
+                    </div>
+
+                    <div class="video">
+                        <div class="swiper1_1 swiper-container">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <iframe width="1200" height="675" src="https://www.youtube.com/embed/QvSfYb-NUgc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                </div>
+                                <div class="swiper-slide">
+                                    <iframe width="1200" height="675" src="https://www.youtube.com/embed/QvSfYb-NUgc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                </div>
+                                <div class="swiper-slide">
+                                    <iframe width="1200" height="675" src="https://www.youtube.com/embed/QvSfYb-NUgc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                </div>
+                                <div class="swiper-slide">
+                                    <iframe width="1200" height="675" src="https://www.youtube.com/embed/QvSfYb-NUgc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                </div>
+                                <div class="swiper-slide">
+                                    <iframe width="1200" height="675" src="https://www.youtube.com/embed/QvSfYb-NUgc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                </div>
+                            </div>
+                            <div class="swbox">
+                                <div class="swiper-button-next"></div>
+                                <div class="swiper-button-prev"></div>
+                            </div>
+                        </div>
+                        <div class="sw2_wrap">
+                            <div class="swiper2 swiper-container">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <img src="images/video1.jpg">
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="images/video1.jpg">
+                                    </div>
+                                    <div class="swiper-slide secret_video">
+                                        <img src="images/video1.jpg">
+                                        <div class="update_noti">
+                                            2019.11.22<br>업데이트 예정
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="images/video1.jpg">
+                                    </div>
+                                    <div class="swiper-slide secret_video">
+                                        <img src="images/video1.jpg">
+                                        <div class="update_noti">
+                                            2019.11.22<br>업데이트 예정
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+                </section>
+
+
+            </main>
+        </div>
+
+
+        <footer>
+            <div class="ftlogo"></div>
+            <div class="frul_wrap">
+                <ul>
+                    <li><a href="" target="_blank">회사정보</a></li>
+                    <li><a href="" target="_blank">이용약관</a></li>
+                    <li><a href="" target="_blank">개인정보처리방침</a></li>
+                </ul>
+            </div>
+
+            <p>
+                상호 : ㈜스포라이브 대표이사 : 김홍민 서울 강남구 학동로 206 , 2층 (논현동, 동화빌딩) 우편 번호 (06104) 사업자 등록번호 : 264-81-21573<br>
+                통신판매업신고번호 : 2015-서울강남-02053호 FAX: 02-541-8063 E-mail : contact@spolive.com<br>
+                © 2015 - 2017, SPOLIVE Corp. All rights reserved
+            </p>
+        </footer>
+
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <script src="js/spolive-0.0.1.js"></script>
+
+</body>
+
+</html>
